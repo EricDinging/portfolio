@@ -1,5 +1,5 @@
 const myHeading = document.querySelector("h1");
-myHeading.textContent = "Eric Ding";
+myHeading.textContent = "Eric Ding Ding";
 
 const myImage = document.querySelector("img");
 myImage.onclick = () => {
