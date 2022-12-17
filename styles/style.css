@@ -16,12 +16,21 @@ h1 {
   font-size: 60px;
   text-align: center;
   margin: 0;
-  padding: 20px 0;
+  padding: 10px 0;
   color: #E5EDF1;
   text-shadow: 3px 3px 1px black;
 }
 
 h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #E5EDF1;
+  text-shadow: 1px 1px 1px black;
+}
+
+h3 {
   font-size: 30px;
   text-align: center;
   margin: 0;

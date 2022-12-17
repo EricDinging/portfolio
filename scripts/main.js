@@ -1,6 +1,9 @@
 const myHeading = document.querySelector("h1");
 myHeading.textContent = "Ding (Eric) Ding";
 
+// const myHeading2 = document.querySelector("h2");
+// myHeading2.textContent = "丁鼎";
+
 const myImage = document.querySelector("img");
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
@@ -13,7 +16,7 @@ myImage.onclick = () => {
 
 // button
 let myButton = document.querySelector("button");
-let greeting = document.querySelector("h2");
+let greeting = document.querySelector("h3");
 
 if (localStorage.getItem("name")) {
     const storedName = localStorage.getItem("name");
