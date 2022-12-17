@@ -6,3 +6,6 @@
 4. Resources
 - Color: #667F99
 - font: https://github.com/JulietaUla/Montserrat
+
+## Resources
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web

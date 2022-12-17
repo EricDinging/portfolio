@@ -1,5 +1,5 @@
 html {
-  background-color: #9aacbf;
+  background-color: #FFFFFF;
   font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
 }
@@ -7,7 +7,7 @@ html {
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #e3bd88;
+  background-color: #96C2DB;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
@@ -17,7 +17,7 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #00539f;
+  color: #E5EDF1;
   text-shadow: 3px 3px 1px black;
 }
 
@@ -26,7 +26,7 @@ h2 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #00539f;
+  color: #E5EDF1;
   text-shadow: 1px 1px 1px black;
 }
 
@@ -41,6 +41,7 @@ P {
   width: 600px;
   font-size: 16px;
   line-height: 2;
+  color: #E5EDF1;
   letter-spacing: 1px;
 }
 
@@ -48,4 +49,5 @@ li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
+  color: #E5EDF1;
 }
