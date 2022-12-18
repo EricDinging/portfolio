@@ -7,10 +7,10 @@ myHeading.textContent = "Ding (Eric) Ding";
 const myImage = document.querySelector("img");
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/web-back1.jpg") {
-    myImage.setAttribute("src", "images/web-back2.jpeg");
+  if (mySrc === "images/cycling.webp") {
+    myImage.setAttribute("src", "images/formula1.jpeg");
   } else {
-    myImage.setAttribute("src", "images/web-back1.jpg");
+    myImage.setAttribute("src", "images/cycling.webp");
   }
 };
 
