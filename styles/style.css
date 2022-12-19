@@ -5,15 +5,15 @@ html {
 }
 
 body {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
-  background-color: #96C2DB;
+  background-color: #557A95;
   padding: 0 20px 20px 20px;
-  border: 10px solid black;
+/*  border: 30px solid grey*/
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   margin: 0;
   padding: 10px 0;
@@ -22,15 +22,6 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  color: #E5EDF1;
-  text-shadow: 1px 1px 1px black;
-}
-
-h3 {
   font-size: 30px;
   text-align: center;
   margin: 0;
@@ -39,23 +30,32 @@ h3 {
   text-shadow: 1px 1px 1px black;
 }
 
+h3 {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #E5EDF1;
+  text-shadow: 1px 1px 1px black;
+}
+
 img {
-  width: 300px;
+  width: 400px;
   display: block;
   margin: 0 auto;
 }
 
 
 P {
-  width: 600px;
-  font-size: 16px;
+  width: 700px;
+  font-size: 18px;
   line-height: 2;
   color: #E5EDF1;
   letter-spacing: 1px;
 }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 1px;
   color: #E5EDF1;

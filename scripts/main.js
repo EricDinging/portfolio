@@ -16,7 +16,7 @@ myImage.onclick = () => {
 
 // button
 let myButton = document.querySelector("button");
-let greeting = document.querySelector("h3");
+let greeting = document.querySelector("h2");
 
 if (localStorage.getItem("name")) {
     const storedName = localStorage.getItem("name");
