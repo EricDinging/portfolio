@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  width: 700px;
+  width: 750px;
   margin: 0 auto;
   background-color: #557A95;
   padding: 0 20px 20px 20px;
@@ -45,13 +45,17 @@ img {
   margin: 0 auto;
 }
 
-
 P {
-  width: 700px;
+  width: 750px;
   font-size: 18px;
   line-height: 2;
   color: #E5EDF1;
   letter-spacing: 1px;
+}
+
+P.email {
+  font-size: 18px;
+  text-align: center;
 }
 
 li {
@@ -59,4 +63,5 @@ li {
   line-height: 2;
   letter-spacing: 1px;
   color: #E5EDF1;
+  list-style-type: square;
 }
