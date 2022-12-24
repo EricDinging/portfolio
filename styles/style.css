@@ -1,5 +1,5 @@
 html {
-  background-color: #FFFFFF;
+  background-color: #557A95;
   font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
 }
@@ -8,7 +8,7 @@ body {
   width: 750px;
   margin: 0 auto;
   background-color: #557A95;
-  padding: 0 20px 20px 20px;
+  padding: 0px 0px 0px 0px;
 /*  border: 30px solid grey*/
 }
 
@@ -18,9 +18,10 @@ a.nav {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  width: 99px;
-  border: 4px solid white;
+  width: 103px;
+  border: 5px solid white;
   padding: 20px;
+  margin: -5px;
   background-color: #B1A296;
 }
 
@@ -32,7 +33,7 @@ h1 {
   font-size: 30px;
   text-align: center;
   margin: 0;
-  padding: 10px 0;
+  padding: 5px;
   color: #E5EDF1;
   text-shadow: 3px 3px 1px black;
 }
@@ -62,11 +63,12 @@ img {
 }
 
 P {
-  width: 750px;
+  width: 700px;
   font-size: 18px;
   line-height: 2;
   color: #E5EDF1;
   letter-spacing: 1px;
+  margin: 25px;
 }
 
 P.email {
