@@ -71,6 +71,12 @@ P {
   margin: 25px;
 }
 
+.intro {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #7395AE;
+}
+
 P.email {
   font-size: 18px;
   text-align: center;
