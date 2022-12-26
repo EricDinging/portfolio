@@ -13,18 +13,23 @@ body {
   border-color: #5D5C61;*/
 }
 
+.wrapper {
+  display: flex;
+}
+
+
 a.nav {
-  display: inline-block;
   font-size: 14px;
   color: #fff;
   text-decoration: none;
   text-align: center;
-  width: 107px;
-  border: 5px solid white;
+/*  width: 107px;*/
+  border: 1px solid white;
   padding: 20px;
   margin-left: -5px;
   margin-right: -5px;
   background-color: #B1A296;
+  flex: 1;
 }
 
 a.nav:hover {
