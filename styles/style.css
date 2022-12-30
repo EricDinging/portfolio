@@ -46,7 +46,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
   color: #E5EDF1;
 /*  text-shadow: 3px 3px 1px black;*/
@@ -55,7 +55,7 @@ body {
 
 
 @media screen and (min-width: 70em) {
-  box {
+  .box {
      font-size: 25px;
   /*  text-shadow: 3px 3px 1px black;*/
   /*  border: 5px solid white;*/
@@ -64,7 +64,7 @@ body {
 
 
 a.nav {
-  font-size: 14px;
+  font-size: 11px;
   color: #fff;
   text-decoration: none;
   text-align: center;
@@ -75,6 +75,14 @@ a.nav {
   margin-right: -5px;
   background-color: #B1A296;
   flex: 1;
+}
+
+@media screen and (min-width: 70em) {
+  a.nav {
+     font-size: 16px;
+  /*  text-shadow: 3px 3px 1px black;*/
+  /*  border: 5px solid white;*/
+  }
 }
 
 a.nav:hover {
