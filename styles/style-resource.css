@@ -1,23 +1,39 @@
 html {
-  background-color: #FFFFFF;
-  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  background-color: 'black';
+  font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  color: 'white';
 }
 
 body {
-  width: 600px;
+  width: 60%;
+  max-width: 800px;
+  min-width: 360px;
   margin: 0 auto;
-  background-color: #FFFFFF;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+/*  background-color: #000000;*/
+  padding: 0px 0px 0px 0px;
+/*  border: 5px solid black;*/
 }
+
+@media screen and (max-width: 70em) {
+  body {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  body {
+    width: 90%;
+  }
+}
+
 
 h1 {
   font-size: 60px;
   text-align: center;
   margin: 0;
   padding: 10px 0;
-  color: #000000;
+/*  color: #000000;*/
   text-shadow: 3px 3px 1px black;
 }
 
@@ -26,7 +42,7 @@ h2 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #000000;
+/*  color: #000000;*/
   text-shadow: 1px 1px 1px black;
 }
 
@@ -35,7 +51,7 @@ h3 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #000000;
+/*  color: #000000;*/
   text-shadow: 1px 1px 1px black;
 }
 
@@ -47,16 +63,16 @@ img {
 
 
 P {
-  width: 600px;
-  font-size: 16px;
+  width: 90%;
+/*  font-size: 16px;*/
   line-height: 2;
-  color: #000000;
+/*  color: #000000;*/
   letter-spacing: 1px;
 }
 
 li {
-  font-size: 16px;
+/*  font-size: 16px;*/
   line-height: 2;
   letter-spacing: 1px;
-  color: #000000;
+/*  color: #000000;*/
 }

@@ -6,14 +6,26 @@
 	    <meta name="description" content="It's Ding Ding's personal resource center" />
 	    <meta name="viewport" content="width=device-width">
 	    <link href="styles/style-resource.css" rel="stylesheet" />
-	    <!-- <script src="scripts/main.js" defer></script> -->
+	    <script src="scripts/resource.js" defer></script>
 	    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
 	    <title>My personal resource center</title>
 	</head>
 	<body>
+		<label for="theme">Select theme: </label>
+		<select id="theme">
+			<option value="white">White</option>
+			<option value="black">Black</option>
+		</select>
+
 		<h1> My Resource </h1>
 		<ul>
-			<li> <a href="cplusplus.com"> cplusplus </a>
+			<li> Programming language
+				<ul>
+					<li> 
+						<a href="cplusplus.com"> cplusplus </a>
+					</li>
+				</ul>
+			</li>
 			<li> Web development
 				<ul>
 					<li>
@@ -22,6 +34,11 @@
 				</ul>
 			</li>
 		</ul>
+		<p>
+			<a href="#top"> Back to top</a>
+			<br>
+			<a href="index.html"> Back to main page</a>
+		</p>
 	</body>
 
 
