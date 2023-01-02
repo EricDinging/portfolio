@@ -31,6 +31,8 @@ submitButton.onclick = () => {
     mesHis.unshift(mesInput.value);
   }
 
+  console.log(mesInput.value);
+
   if (mesHis.length > MAX_HIS) {
     mesHis.pop();
   }
