@@ -18,25 +18,13 @@ body {
 
 @media screen and (max-width: 70em) {
   body {
-/*  width: 750px;*/
-  width: 80%;
-  margin: 0 auto;
-  background-color: #557A95;
-  padding: 0px 0px 0px 0px;
-  /*border: 10px solid;
-  border-color: #5D5C61;*/
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 40em) {
   body {
-/*  width: 750px;*/
-  width: 100%;
-  margin: 0 auto;
-  background-color: #557A95;
-  padding: 0px 0px 0px 0px;
-  /*border: 10px solid;
-  border-color: #5D5C61;*/
+    width: 100%;
   }
 }
 
