@@ -17,11 +17,11 @@ select.addEventListener('change', () => select.value === 'white'
 let numA = document.querySelector('.numA');
 let numB = document.querySelector('.numB');
 let op = document.querySelector('#operator');
-let submitButton = document.querySelector('button');
+let calButton = document.querySelector('.calButton');
 let result = document.querySelector('.result');
 let resultText = '';
 
-submitButton.onclick = () => {
+calButton.onclick = () => {
   if (numA.value !== '' && numB.value !== '') {
     const A = Number(numA.value);
     const B = Number(numB.value);
@@ -54,3 +54,28 @@ submitButton.onclick = () => {
   numA.focus();
 }
 
+let tempInput = document.querySelector('.tempInput');
+let tempUnit = document.querySelector('#tempUnit');
+let tempResult = document.querySelector('.tempResult');
+
+function calTemp() {
+  if (tempInput.value != '') {
+    let temp = Number(tempInput.value);
+    let tempConv = 0;
+    switch(tempUnit.value) {
+      case 'F':
+        tempConv = ((temp - 32) * 5 / 9).toFixed(2);
+        tempResult.textContent = `${temp} °F is ${tempConv} °C`;
+        break;
+      case 'C':
+        tempConv = (temp * 9 / 5 + 32).toFixed(2);
+        tempResult.textContent = `${temp} °C is ${tempConv} °F`;
+        break;
+      default:
+        tempResult = '';
+    }
+  }
+  tempUnit.value = 'None';
+}
+
+tempUnit.addEventListener('change', calTemp);

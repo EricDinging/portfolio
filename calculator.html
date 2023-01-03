@@ -26,7 +26,7 @@
 
 		<form>
 			<label for="operator">Operator</label>
-			<select id="operator">
+			<select id="operator" name="operator">
 				<option value="None">-Select an operator-</option>
 				<option value="+">+</option>
 				<option value="-">-</option>
@@ -40,11 +40,28 @@
 			<input type="text" class="numB" name="B">
 		</form>
 
-		<button type="button">Submit</button>
+		<button class="calButton" type="button">Submit</button>
 
 		<p class="result">
 		</p>
 
+		<h2>Temp Converter</h2>
+		<form>
+			<label for="temp">Temperature</label>
+			<input type="text" class="tempInput" name="temp">
+		</form>
+
+		<form>
+			<label for="tempUnit">Unit</label>
+			<select id="tempUnit" name="tempUnit">
+				<option value="None">-Select unit-</option>
+				<option value="F">°F</option>
+				<option value="C">°C</option>
+			</select>
+		</form>
+
+		<p class="tempResult">
+		</p>
 
 		<p>
 			<a href="#top"> Back to top</a>
