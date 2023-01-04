@@ -4,6 +4,9 @@ function refreshTime() {
 }
 setInterval(refreshTime, 1000);
 
+let ranNum = document.querySelector('.ranNum');
+ranNum.textContent = `${random(10)}`;
+
 let list = document.querySelector('.messageList');
 let mesInput = document.querySelector('.messageInput');
 const submitButton = document.querySelector('button');
