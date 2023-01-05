@@ -56,3 +56,20 @@ li {
   color: #E5EDF1;
   list-style-type: square;
 }
+
+#imageGallery {
+  display: block;
+}
+
+.displayed-img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
