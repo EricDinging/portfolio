@@ -75,3 +75,7 @@ dl {
   letter-spacing: 1px;
 /*  color: #FFFFFF;*/
 }
+
+a {
+  color: blue;
+}
