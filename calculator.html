@@ -18,50 +18,65 @@
 		</select>
 
 		<h1>My Calculator</h1>
+
+		<div id="calselector">
+			<form>
+				<label for="selector">Select a calculator</label>
+				<select id="calSelectorS" name="selector">
+					<option value="None">-Select a calculator-</option>
+					<option value="g">General</option>
+					<option value="t">Temperature Converter</option>
+				</select>
+			</form>
+		</div>
+
 		
-		<form>
-			<label for="A">Input A </label>
-			<input type="text" class="numA" name="A">
-		</form>
+		<div class="hidden" id="generalCalculator">
+			<form>
+				<label for="A">Input A </label>
+				<input type="text" class="numA" name="A">
+			</form>
 
-		<form>
-			<label for="operator">Operator</label>
-			<select id="operator" name="operator">
-				<option value="None">-Select an operator-</option>
-				<option value="+">+</option>
-				<option value="-">-</option>
-				<option value="*">*</option>
-				<option value="/">/</option>
-			</select>
-		</form>
+			<form>
+				<label for="operator">Operator</label>
+				<select id="operator" name="operator">
+					<option value="None">-Select an operator-</option>
+					<option value="+">+</option>
+					<option value="-">-</option>
+					<option value="*">*</option>
+					<option value="/">/</option>
+				</select>
+			</form>
 
-		<form>
-			<label for="B">Input B </label>
-			<input type="text" class="numB" name="B">
-		</form>
+			<form>
+				<label for="B">Input B </label>
+				<input type="text" class="numB" name="B">
+			</form>
 
-		<button class="calButton" type="button">Submit</button>
+			<button class="calButton" type="button">Submit</button>
 
-		<p class="result">
-		</p>
+			<p class="result">
+			</p>
+		</div>
 
-		<h2>Temp Converter</h2>
-		<form>
-			<label for="temp">Temperature</label>
-			<input type="text" class="tempInput" name="temp">
-		</form>
+		<div class="hidden" id="tempConverter">
+			<form>
+				<label for="temp">Temperature</label>
+				<input type="text" class="tempInput" name="temp">
+			</form>
 
-		<form>
-			<label for="tempUnit">Unit</label>
-			<select id="tempUnit" name="tempUnit">
-				<option value="None">-Select unit-</option>
-				<option value="F">°F</option>
-				<option value="C">°C</option>
-			</select>
-		</form>
+			<form>
+				<label for="tempUnit">Unit</label>
+				<select id="tempUnit" name="tempUnit">
+					<option value="None">-Select unit-</option>
+					<option value="F">°F</option>
+					<option value="C">°C</option>
+				</select>
+			</form>
 
-		<p class="tempResult">
-		</p>
+			<p class="tempResult">
+			</p>
+		</div>
 
 		<p>
 			<a href="#top"> Back to top</a>

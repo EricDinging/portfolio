@@ -14,6 +14,29 @@ select.addEventListener('change', () => select.value === 'white'
   : update('white', 'black')
 );
 
+let generalCalc = document.querySelector('#generalCalculator');
+let tempConverter = document.querySelector('#tempConverter');
+let calselect = document.querySelector('#calSelectorS');
+let active;
+
+function calsel() {
+  if (active) {
+    active.classList.add('hidden');
+  }
+  switch(calselect.value) {
+    case 'g':
+      active = generalCalc;
+      active.classList.remove('hidden');
+      break;
+    case 't':
+      active = tempConverter;
+      active.classList.remove('hidden');
+      break;
+    default:
+  }
+}
+calselect.addEventListener('change', calsel);
+
 let numA = document.querySelector('.numA');
 let numB = document.querySelector('.numB');
 let op = document.querySelector('#operator');
