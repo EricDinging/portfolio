@@ -34,8 +34,6 @@ submitButton.onclick = () => {
     mesHis.unshift(mesInput.value);
   }
 
-  console.log(mesInput.value);
-
   if (mesHis.length > MAX_HIS) {
     mesHis.pop();
   }
@@ -52,4 +50,26 @@ submitButton.onclick = () => {
 
   mesInput.value = '';
   mesInput.focus();
+}
+
+const displayedImage = document.querySelector('.displayed-img');
+const thumbBar = document.querySelector('.thumb-bar');
+
+let thumbimg = ['images/cycling.webp', 'images/formula1.jpeg'];
+let thumbimgalt = ['My favourite cyclist', 'My favourite cycling team'];
+
+for (let i = 0; i < thumbimg.length; i++) {
+  const newImage = document.createElement('img');
+  newImage.setAttribute('src', thumbimg[i]);
+  newImage.setAttribute('alt', thumbimgalt[i]);
+  thumbBar.appendChild(newImage);
+
+  newImage.addEventListener('click', ()=> {
+    let tempsrc = displayedImage.src;
+    let tempalt = displayedImage.alt;
+    displayedImage.setAttribute('src', newImage.src);
+    displayedImage.setAttribute('alt', newImage.alt);
+    newImage.setAttribute('src', tempsrc);
+    newImage.setAttribute('alt', tempalt);
+  })
 }
