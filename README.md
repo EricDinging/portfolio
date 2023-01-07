@@ -2,15 +2,16 @@
 https://ericdinging.github.io/ericding.github.io/
 
 ## Design Road Map
-1. Bio - done
-2. Goals - done
-3. Academic & Research - done
-4. Resources - done
-5. Calculator selector using hidden class - done
-6. Switch to Apache server 
-7. Journal page with password
-8. Visit record, increase visibility
-9. Personal database
+- Bio - done
+- Goals - done
+- Academic & Research - done
+- Resources - done
+- Calculator selector using hidden class - done
+- Change link font
+- Switch to Apache server 
+- Journal page with password
+- Visit record, increase visibility
+- Personal database
 
 ## Resources
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
