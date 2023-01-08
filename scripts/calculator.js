@@ -1,19 +1,3 @@
-const select = document.querySelector('#theme');
-const html = document.querySelector('html');
-
-html.style.color = 'black';
-html.style.backgroundColor = 'white';
-
-function update(textColor, bgColor) {
-  html.style.backgroundColor = bgColor;
-  html.style.color = textColor;
-}
-
-select.addEventListener('change', () => select.value === 'white'
-  ? update('black', 'white')
-  : update('white', 'black')
-);
-
 let generalCalc = document.querySelector('#generalCalculator');
 let tempConverter = document.querySelector('#tempConverter');
 let calselect = document.querySelector('#calSelectorS');
