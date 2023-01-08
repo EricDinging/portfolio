@@ -7,8 +7,7 @@ https://ericdinging.github.io/ericding.github.io/
 - Academic & Research - done
 - Resources - done
 - Calculator selector using hidden class - done
-- Change link font - done
-- Switch to Apache server 
+- Change link font - done 
 - Journal page with password
 - Visit record, increase visibility
 - Personal database
