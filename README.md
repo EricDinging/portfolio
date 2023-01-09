@@ -8,7 +8,8 @@ https://ericdinging.github.io/ericding.github.io/
 - Resources - done
 - Calculator selector using hidden class - done
 - Change link font - done
-- Upgrade github page
+- Upgrade github page - done
+- Include project photos
 - Journal page with password
 - Visit record, increase visibility
 - Personal database
