@@ -7,6 +7,7 @@ const volumeSlider = document.querySelector('.volume');
 
 const audioSource = audioCtx.createMediaElementSource(audioElement);
 
+
 // play/pause audio
 playBtn.addEventListener('click', () => {
     // check if context is in suspended state (autoplay policy)
