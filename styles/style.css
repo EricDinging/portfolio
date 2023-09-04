@@ -80,6 +80,15 @@ a.nav:hover {
   background-color: #5D5C61;
 }
 
+a.para {
+  color: #E5EDF1;
+  font-size: 16px;
+}
+
+a.para:hover {
+  background-color: #5D5C61;
+}
+
 h1 {
   font-size: 30px;
   text-align: center;
