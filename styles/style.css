@@ -211,5 +211,9 @@ li {
     align-items: flex-start; /* Adjust alignment as needed */
   }
 
+  .flex-image {
+    max-width: 100%; /* Set a maximum width relative to its container */
+  }
+
   /* You can add more specific styles for smaller screens here */
 }
