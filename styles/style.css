@@ -204,3 +204,12 @@ li {
   flex: 1;
   text-align: center; /* Center the image horizontally within its container */
 }
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column; /* Change to a column layout */
+    align-items: flex-start; /* Adjust alignment as needed */
+  }
+
+  /* You can add more specific styles for smaller screens here */
+}
