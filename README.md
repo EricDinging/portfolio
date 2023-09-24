@@ -1,5 +1,5 @@
 # MyFirstWeb
-https://ericdinging.github.io/portfolio/
+https://ericdinging.github.io/mywebsite/
 
 ## Design Road Map
 - Bio - done

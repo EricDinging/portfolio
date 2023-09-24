@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="author" content="Eric Ding">
-    <meta name="description" content="Eric Ding's website" />
+    <meta name="description" content="Eric Ding's portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles/style.css" rel="stylesheet" />
     <script src="scripts/main.js" defer></script>
@@ -14,7 +14,7 @@
     <header>
       <nav class="wrapperflex">
         <a class="nav" href="file/CV/Ding_CV.pdf"> Resume </a>
-        <a class="nav" href="projects.html"> Projects </a>
+        <a class="nav" href="#project"> Projects </a>
         <a class="nav" href="https://github.com/EricDinging"> GitHub </a>
         <a class="nav" href="https://www.linkedin.com/in/ding-ding-674589248/"> Linkedin </a>
         <a class="nav" href="https://www.strava.com/athletes/85767768"> Strava</a>
@@ -27,11 +27,11 @@
       <p class="email"> <a class="email" href="mailto:ericding@umich.edu"> ericding@umich.edu</a></p>
 
       <p class="intro">
-        Hi! I'm a senior student in <strong>CSE</strong> at the <strong>University of Michigan, Ann Arbor</strong>, and <strong>ECE</strong> at <strong>Shanghai Jiao Tong University</strong>. I'm passtionate about building efficient distributed systems for machine learning and embedded applications. My explorations in both the hardware and software equip me with valuable insights on how to design high-performance and fault-tolerant systems that fully exploit the hardware capabilities using intelligent algorithms and unlock the power of parallelism through distribution.
+        Hi! I'm a senior student in <strong>Computer Science</strong> at the <strong>University of Michigan, Ann Arbor</strong>, and <strong>Electrical and Computer Engineering</strong> at <strong>Shanghai Jiao Tong University</strong>. My passion lies in developing efficient distributed systems for machine learning and embedded applications. My dual focus on hardware and software has equipped me with valuable insights into building high-performance and fault-tolerant systems. I believe that only through hardware-software co-design can we improve existing Big Data and AI/ML applications and create better ones by leveraging the underlying infrastructure.  
       </p>
 
       <p class="intro">
-        I am fortunate to be advised by Professor <a href="https://www.mosharaf.com/" class="para">Mosharaf Chowdhury</a>, and be part of <a href="https://symbioticlab.org/" class="para">SymbioticLab</a>. I am also an active member in <a href="https://www.maisi.club/" class="para">Michigan AI Safety Initiative (MAISI)</a> and <a href="https://www.umcycling.org/" class="para">Michigan Cycling</a>.
+        I am fortunate to be advised by Professor <a href="https://www.mosharaf.com/" class="para">Mosharaf Chowdhury</a>, and be part of <a href="https://symbioticlab.org/" class="para">SymbioticLab</a>. I am also an active member in <a href="https://www.maisi.club/" class="para">Michigan AI Safety Initiative (MAISI)</a> and <a href="https://www.umcycling.org/" class="para">UM Cycling</a>.
       </p>
 
       <p>
@@ -39,7 +39,66 @@
       </p>
 
       <hr>
-      <ul>
+      <h2 id="project">Selected Projects</h2>
+
+        <div class="base-container">
+          <div>
+            <p>
+              <strong>Propius:</strong> is a Python-based Federated Learning (FL) resource management system, employing a microservice architecture based on gRPC protocol and Redis database. Propius implements an advanced scheduling policy, achieving a 28.5% reduction in the average completion time of FL jobs. Propius comes with a distributed FL evaluation system, leveraging datacenter nodes for GPU-accelerated training.
+            </p>
+          </div>
+          <div>
+            <img src="images/fl.jpg" alt="Propius" style="width:90%;"/>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <div class="flex-text">
+            <p>
+              <strong>Tennis Ball Collector:</strong> is an autonomous robot dedicated to collecting objects such as tennis balls. It can:
+              <ul>
+                <li>Detect objects through pixycam and IR sensors</li>
+                <li>Collect objects using a spinning rotor</li>
+                <li>Move around freely, powered by two powerful motors connected through H-bridges</li>
+                <li>Avoid obstacles using ultrasonic sensors with moving average algorithm for noise filtering</li>
+              </ul>
+            </p>
+            <p>
+              <a href="https://github.com/EricDinging/EECS373-DASA" class="para"> Project repo </a>
+            </p>
+          </div>
+          <div class="flex-image">
+            <img src="images/robot.jpg" alt="Tennis Ball Collector"/>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <div class="flex-image">
+            <img src="images/wasp.jpg" alt="WASP" />
+          </div>
+          <div class="flex-text">
+            <p>
+              <strong>WASP:</strong> Wearable Analytical Skin Probe, is a wearable closed-chamber hygrometer-based device. WASP uses a high-performance communication protocol that operates atop I2C and Bluetooth Low Energy protocols. This protocol enables low-latency communication between microcontrollers, ensuring high-fidelity data collection. WASP has been successfully deployed in experimental setups for measuring insensible sweating (TEWL) and tracking skin dehydration-rehydration cycles.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <div class="flex-text">
+            <p>
+              <strong>Light Strider:</strong> Embark on an exciting journey! Light Strider is a captivating front-end web game written in ELM. You'll take charge of directing light beams through intricate mazes, strategically employing mirrors and light splitters to avoid obstacles. The game leverages intricate graph algorithms to generate infinite game maps. Give it a try!
+            </p>
+            <p>
+              <a href="ericdinging.github.io/light_strider/" class="para"> Start here </a>
+
+              <a href="https://github.com/EricDinging/light_strider" class="para"> Project repo </a>
+            </p>
+          </div>
+          <div class="flex-image">
+            <img src="images/light_strider.jpg" alt="Light Strider" />
+          </div>
+        </div>
+      <!-- <ul>
         <li>Goals
           <ul>
             <li>
@@ -51,7 +110,6 @@
           <ul>
             <li> Designing fault tolerant and high-performance federated learning system, SymbioticLab, University of Michigan
             <li> Aligning advanced AI system to human values, Michigan AI Safety Initiative, University of Michigan</li>
-            <!-- <li> <strong>Data Science and Machine Learning</strong>, SOCR, University of Michigan</li> -->
           </ul>
         </li>
         <li>Activities
@@ -66,9 +124,7 @@
         <div class="box1 box"> Perseverance </div>
         <div class="box2 box"> Passion </div>
         <div class="box3 box"> Initiative </div>
-      </div>
-
-      <hr>
+      </div> -->
 
       <!-- <ul>
         <li> <a href="file/CV/Ding_CV.pdf"> My Resume </a> </li>
