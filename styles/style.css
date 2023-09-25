@@ -205,15 +205,14 @@ li {
   text-align: center; /* Center the image horizontally within its container */
 }
 
-@media (max-width: 800px) {
+
+@media screen and (max-width: 70em){
   .flex-container {
     flex-direction: column; /* Change to a column layout */
     align-items: flex-start; /* Adjust alignment as needed */
   }
 
   .flex-image {
-    width: 300px; /* Set a maximum width relative to its container */
+    max-width: 90%; /* Set a maximum width relative to its container */
   }
-
-  /* You can add more specific styles for smaller screens here */
 }
