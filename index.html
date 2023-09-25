@@ -57,10 +57,11 @@
             <p>
               <strong>Tennis Ball Collector:</strong> is an autonomous robot dedicated to collecting objects such as tennis balls. It can:
               <ul>
-                <li>Detect objects through pixycam and IR sensors</li>
+                <li>Search objects through a pixycam running OpenCV models, and a direction control feedback loop</li>
                 <li>Collect objects using a spinning rotor</li>
-                <li>Move around freely, powered by two powerful motors connected through H-bridges</li>
-                <li>Avoid obstacles using ultrasonic sensors with moving average algorithm for noise filtering</li>
+                <li>Move around freely, driven by two powerful motors connected through H-bridges</li>
+                <li>Detect obstacles using ultrasonic sensors with a moving average algorithm for noise filtering</li>
+                <li>Do all the stuff by itself thanks to a well-designed finite state machine</li>
               </ul>
             </p>
             <p>
@@ -74,7 +75,7 @@
 
         <div class="flex-container">
           <div class="flex-image">
-            <img src="images/wasp.jpg" alt="WASP" />
+            <img src="images/wasp.png" alt="WASP" />
           </div>
           <div class="flex-text">
             <p>
