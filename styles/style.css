@@ -89,15 +89,6 @@ a.para:hover {
   background-color: #5D5C61;
 }
 
-h1 {
-  font-size: 30px;
-  text-align: center;
-  margin: 15px;
-  padding: 5px;
-  color: #E5EDF1;
-  text-shadow: 3px 3px 1px black;
-}
-
 h2 {
   font-size: 30px;
   text-align: center;
@@ -131,6 +122,13 @@ P {
   margin: 25px auto;
 }
 
+p.h {
+  width: 90%;
+  font-size: 16px;
+  color: #E5EDF1;
+  margin: 0
+}
+
 .intro {
   font-size: 16px;
   padding: 10px;
@@ -140,6 +138,7 @@ P {
 P.email {
   font-size: 18px;
   text-align: center;
+  padding: 1px
 }
 
 a.email {
@@ -204,7 +203,6 @@ li {
   flex: 1;
   text-align: center; /* Center the image horizontally within its container */
 }
-
 
 @media screen and (max-width: 70em){
   .flex-container {

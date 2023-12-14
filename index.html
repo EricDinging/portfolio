@@ -19,39 +19,72 @@
         <a class="nav" href="https://www.linkedin.com/in/ding-ding-674589248/"> Linkedin </a>
         <a class="nav" href="https://www.strava.com/athletes/85767768"> Strava</a>
         <a class="nav" href="https://twitter.com/EricDingg1636"> Twitter </a>
-      </nav> 
-      <h1 id="top">Eric D. Ding</h1>
-      <h1> 丁鼎 </h1>
+      </nav>
     </header>
     <main>
-      <p class="email"> <a class="email" href="mailto:ericding@umich.edu"> ericding@umich.edu</a></p>
+      <!-- <br> -->
+      <br>
+      <table style="width:100%;">
+        <tbody><tr>
+          <td style="width: 20%; text-align: left;">
+            <img src="images/selfie.jpg" style="width: 100%; min-width: 150px;" alt="selfie">
+          </td>
+          <td style="width: 80%; text-align: left;">
+            <p class="h" style="font-size: 30px;
+            color: #E5EDF1;
+            text-shadow: 3px 3px 1px black;">Eric Ding</p>
+            <p class="h">SymbioticLab | UMich CSE | SJTU ECE</p>
+            <p class="h">Email: ericding (at) umich (dot) edu</p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <br>
+      <div class="base-container">
+        
+        <p>
+          Hi! I'm a senior student studying <strong>CS</strong> at the <strong>University of Michigan</strong>, and <strong>ECE</strong> at <strong>Shanghai Jiao Tong University</strong>.
+          My interest revolves around <strong>systems for machine learning and data analysis</strong>. Specifically, I have worked on building a scalable software system for large-scale federated learning, and enhancing embedded communication protocols to improve data fidelity. By designing robust systems and scalable architectures, I hope to democratize ML to make our world a better place.
+        </p>
 
-      <p class="intro">
-        Hi! I'm a senior student pursuing <strong>CS</strong> at the <strong>University of Michigan, Ann Arbor</strong>, and <strong>ECE</strong> at <strong>Shanghai Jiao Tong University</strong>.
-      </p>
-      <p class="intro">
-        My interest revolves around <strong>systems for machine learning and data analysis</strong>. I am passionate about understanding how to leverage foundational system principles to enable new ML applications, and building systems to handle large data workloads. Specifically, I have worked on building a scalable software system for large-scale federated learning, and enhancing embedded communication protocols to improve data fidelity. By designing robust systems and scalable architectures, I hope to democratize ML to make our world a better place.
-      </p>
+        <p>
+          I am fortunate to be advised by Professor <a href="https://www.mosharaf.com/" class="para">Mosharaf Chowdhury</a>, and be part of <a href="https://symbioticlab.org/" class="para">SymbioticLab</a>. I am also an active member in <a href="https://www.maisi.club/" class="para">Michigan AI Safety Initiative (MAISI)</a> and <a href="https://www.umcycling.org/" class="para">UM Cycling</a>.
+        </p>
 
-      <p class="intro">
-        I am fortunate to be advised by Professor <a href="https://www.mosharaf.com/" class="para">Mosharaf Chowdhury</a>, and be part of <a href="https://symbioticlab.org/" class="para">SymbioticLab</a>. I am also an active member in <a href="https://www.maisi.club/" class="para">Michigan AI Safety Initiative (MAISI)</a> and <a href="https://www.umcycling.org/" class="para">UM Cycling</a>.
-      </p>
+        <p>Interests: Network Systems, Distributed Computation, Machine Learning, Embedded System</p>
+      </div>
 
       <p>
         <i>Last updated: 12-13-2023</i> 
       </p>
 
       <hr>
+
+      <h2 id="publication">Publications</h2>
+      <div class="base-container">
+        <p><b> Venn: Resource Management Across Federated Learning Jobs</b>
+          <br> Jiachen Liu, Fan Lai, Eric Ding, Yiwen Zhang, Mosharaf Chowdhury
+          <br> MLSys 2024 (Under Review)
+          </p>
+        <p>
+
+        <p><b> WASP: Wearable Analytical Skin Probe for Dynamic Monitoring of Transepidermal Water Loss </b>
+          <br> Anjali Devi Sivakumar, Ruchi Sharma, Chandrakalavathi Thota, Ding Ding, Xudong Fan
+          <br> ACS Sensors 2023
+          <br><a href=https://pubs.acs.org/doi/10.1021/acssensors.3c01936 class="para">[Paper]</a>
+        </p>
+      </div>
+
       <h2 id="project">Selected Projects</h2>
 
         <div class="base-container">
           <div>
             <p>
-              <strong>Propius</strong> is a Python-based Federated Learning (FL) resource management system, employing a microservice architecture based on gRPC protocol and Redis database. Propius implements an advanced scheduling policy that could increase the average FL job convergence speed by 88% compared to current approaches. Propius comes with a distributed FL evaluation system, leveraging datacenter nodes for GPU-accelerated training.
+              <strong>Propius</strong> is a federated learning (FL) resource management system, employing a microservice architecture based on gRPC protocol and Redis database. The system provides a clean abstraction on top of the device-level heterogeneity over the network, and supports various scheduling policies for different objectives. Venn, an advanced scheduling policy for FL job completion time (JCT) optimization, is deployed in Propius. Evaluation on GPU clusters showcased that the system could improve average JCT by 88% compared to random allocation.
             </p>
           </div>
           <div>
-            <img src="images/fl.jpg" alt="Propius" style="width:90%; max-width:500px;"/>
+            <img src="images/propius.png" alt="Propius" style="width:60%; max-width:300px;"/>
           </div>
         </div>
 
@@ -68,7 +101,7 @@
               </ul>
             </p>
             <p>
-              <a href="https://github.com/EricDinging/DASA" class="para"> Project repo </a>
+              <a href="https://github.com/EricDinging/DASA" class="para"> [Code] </a>
             </p>
           </div>
           <div class="flex-image">
@@ -82,7 +115,7 @@
           </div>
           <div class="flex-text">
             <p>
-              <strong>WASP:</strong> Wearable Analytical Skin Probe, is a wearable closed-chamber hygrometer-based device. WASP uses a high-performance communication protocol that operates atop I2C and Bluetooth Low Energy protocols. This protocol enables low-latency communication between microcontrollers, ensuring high-fidelity data collection. WASP has been successfully deployed in experimental setups for measuring insensible sweating (TEWL) and tracking skin dehydration-rehydration cycles.
+              <strong>WASP:</strong> Wearable Analytical Skin Probe, is a wearable closed-chamber hygrometer-based device. WASP uses a high-performance communication protocol that operates atop I2C and Bluetooth Low Energy protocols. This protocol enables low-latency and reliable communication between microcontrollers, ensuring high-fidelity data collection. WASP has been successfully deployed in experimental setups for measuring insensible sweating (TEWL) and tracking skin dehydration-rehydration cycles.
             </p>
           </div>
         </div>
@@ -93,9 +126,9 @@
               <strong>Light Strider</strong>: Embark on an exciting journey! Light Strider is a captivating front-end web game written in ELM. You'll take charge of directing light beams through intricate mazes, strategically employing mirrors and light splitters to avoid obstacles. The game leverages intricate graph algorithms to generate infinite game maps. Give it a try!
             </p>
             <p>
-              <a href="https://ericdinging.github.io/light_strider/" class="para"> Start here </a>
+              <a href="https://ericdinging.github.io/light_strider/" class="para"> [Play!] </a>
 
-              <a href="https://github.com/EricDinging/light_strider" class="para"> Project repo </a>
+              <a href="https://github.com/EricDinging/light_strider" class="para"> [Code] </a>
             </p>
           </div>
           <div class="flex-image">
