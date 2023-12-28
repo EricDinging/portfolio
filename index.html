@@ -52,7 +52,7 @@
       </div>
 
       <p>
-        <i>Last updated: 12-13-2023</i> 
+        <i>Last updated: 12-28-2023</i> 
       </p>
 
       <hr>
@@ -75,14 +75,26 @@
 
       <h2 id="project">Selected Projects</h2>
 
-        <div class="base-container">
-          <div>
+        <div class="flex-container">
+          <div class="flex-text">
             <p>
-              <strong>Propius</strong> is a federated learning (FL) resource management system, employing a microservice architecture based on gRPC protocol and Redis database. The system provides a clean abstraction on top of the device-level heterogeneity over the network, and supports various scheduling policies for different objectives. Venn, an advanced scheduling policy for FL job completion time (JCT) optimization, is deployed in Propius. Evaluation on GPU clusters showcased that the system could improve average JCT by 88% compared to random allocation.
+              <strong>Propius</strong> is a federated learning (FL) resource management system, employing a microservice architecture based on gRPC protocol and Redis database. The system provides a clean abstraction on top of the device-level heterogeneity over the network, and supports various scheduling policies for different objectives. Venn, an advanced scheduling policy for FL job completion time (JCT) optimization, is deployed in Propius.
             </p>
           </div>
-          <div>
-            <img src="images/propius.png" alt="Propius" style="width:60%; max-width:300px;"/>
+          <div class="flex-image">
+            <img src="images/propius.png" alt="Propius" style="width:90%; max-width:500px;"/>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <div class="flex-image">
+            <img src="images/venn.png" alt="Venn" style="width:90%; max-width:500px;"/>
+          </div>
+          <div class="flex-text">
+            <p>
+              <strong>Venn</strong> is an FL scheduler that efficiently schedules ephemeral, heterogeneous devices among many FL jobs, with the goal of reducing their average job completion time (JCT). Venn proposes a contention-aware scheduling heuristic to minimize the average scheduling delay, and a resource-aware device-to-job matching heuristic that focuses on optimizing response collection time by mitigating stragglers. Our evaluation shows that, compared to the state-of-the-art FL resource managers, Venn improves the average JCT by up to 1.88X. 
+            </p>
+            <p><a href=https://arxiv.org/abs/2312.08298 class="para">[arXiv:2312.08298]</a></p>
           </div>
         </div>
 
