@@ -74,7 +74,7 @@ a.para {
 }
 
 a.para:hover {
-  background-color: #5D5C61;
+  background-color: #b6b4b4;
 }
 
 h2 {
@@ -83,7 +83,6 @@ h2 {
   margin: 0;
   padding: 20px 0;
   color: #000000;
-  text-shadow: 1px 1px 1px black;
 }
 
 h3 {
@@ -92,7 +91,6 @@ h3 {
   margin: 0;
   padding: 20px 0;
   color: #000000;
-  text-shadow: 1px 1px 1px black;
 }
 
 img {
